@@ -38,12 +38,14 @@ p {
 }
 
 /* Hero image */
-.hero-img {
+.hero img {
     width: 100%; /* Image fills the width of the container */
     height: auto; /* Ensure the image fills the height of the hero */
     object-fit: cover; /* Make sure the image fits without distortion */
     display: block; /* Remove any extra space below the image */
 }
+
+
 
 /* Absolutely position the heading (h1) over the hero image */
 .hero h1 {
