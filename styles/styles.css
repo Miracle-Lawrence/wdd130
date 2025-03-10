@@ -16,13 +16,15 @@ main img {
   width: 150px;
   height: auto;
   border: 1px solid black;
-  padding: 2px;
+  padding: 1em;
   box-shadow: 0 0 30px gray;
 }
 
 p {
-  padding: 1px;
-}
+    padding: 0;
+    margin: 10px 0;
+  }
+  
 
 body {
   background-color: beige;
