@@ -1,0 +1,101 @@
+:root {
+    --heading-color: #0D0106;
+    --background-color: #B4B8C5;
+    --text-color: #0c0901 ;
+  }
+
+header img {
+    width: 90px;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+header nav {
+    float: right;
+    padding-top: 50px;
+    padding-right: 30%;
+    
+}
+
+p {
+    text-align: justify;
+    color: var(--text-color);
+      
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+     
+    
+}
+
+footer a {
+    text-decoration: none;
+    
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+.hero img {
+
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    top: 140px;
+    left: 340px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: oblique;
+    font-size: 70px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    
+}
+
+article {
+    position: absolute;
+    background-color: var(--heading-color);
+    opacity: 0.9;
+    bottom: 100px;
+    right: 300px;
+    max-width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+}
+article p {
+    color: white;
+}
+#rafting-experience img {
+    width: 150px;
+    float: right;
+    border-radius: 20px;
+}
+#rafting-experience h2 {
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    top: 140px;
+    left: 340px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: oblique;
+    font-size: 70px;
+}
+
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
