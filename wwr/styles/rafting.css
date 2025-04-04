@@ -151,5 +151,226 @@ footer {
     margin: 10px;
 }
 
-  
 
+/* Contact Section */
+.contact-head {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .contact-head p{
+    text-align: center;
+
+  }
+  
+  .contact-head h1 {
+    font-size: 2rem;
+    color: #0077b6;
+    margin-bottom: 1rem;
+  }
+  
+  .display {
+    display: flex;
+    padding-bottom: 30px;
+    
+  }
+  .display article {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #eef6f9;
+    border-left: 5px solid #0077b6;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .display article p{
+    text-align: center;
+  }
+  
+  .display h3 {
+    margin-bottom: 0.5rem;
+    color: #023e8a;
+  }
+  
+  .display button {
+    background-color: #0077b6;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .display button:hover {
+    background-color: #005f8a;
+  }
+  
+  /* Company Location */
+  .Company-location {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .address {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .address h2 {
+    color: #0077b6;
+  }
+  
+  .map {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  .map iframe {
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+  }
+  
+  /* Employees Section */
+  h2 {
+    margin-bottom: 1rem;
+    color: #0077b6;
+    text-align: center;
+  }
+  
+  .Employees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .Employees figure {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 220px;
+  }
+  
+  .Employees img {
+    width: 100%;
+    border-radius: 8px;
+    height: auto;
+  }
+  
+  .Employees figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-wrapper {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 3rem auto;
+  }
+  
+  form h2 {
+    color: #0077b6;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  form label {
+    font-weight: 600;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+    color: #333;
+  }
+  
+  form input[type="text"],
+  form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  form input[type="text"]:focus,
+  form textarea:focus {
+    border-color: #0077b6;
+    outline: none;
+  }
+  
+  form textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  form p {
+    margin-top: 1.2rem;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  form input[type="radio"],
+  form input[type="checkbox"] {
+    margin-right: 0.4rem;
+  }
+  
+  form label[for="subscribe"] {
+    font-weight: normal;
+  }
+  
+  /* Styled, Clear Submit Button */
+  form button[type="button"],
+  form button[type="submit"] {
+    margin-top: 2rem;
+    background-color: #0077b6;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  form button[type="button"]:hover,
+  form button[type="submit"]:hover {
+    background-color: #005f8a;
+    transform: scale(1.02);
+  }
+  
+  /* Optional: Add subtle form animation */
+  .form-wrapper form {
+    animation: fadeInUp 0.6s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
