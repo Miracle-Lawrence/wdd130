@@ -374,3 +374,290 @@ footer {
     }
   }
   
+  /* Home Page Styling*/
+  /* Hero Section */
+.hero-home {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.hero-text h1 {
+  font-size: 2.0rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.hero-text p {
+  font-size: 1.0rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-decoration: wavy;
+}
+
+.enroll-button button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.enroll-button button:hover {
+  background-color: #218838;
+}
+
+/* Adventures Section Layout using CSS Grid */
+.home-adventures {
+  text-align: center;
+  padding: 3rem 1rem;
+  
+}
+
+.home-adventures h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Makes it responsive */
+  gap: 1rem;
+  margin-left: 20%;
+}
+
+.grid-item {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.grid-item figcaption {
+  font-size: 1.2rem;
+  color: white;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+/* Newsletter Section */
+.newsletter-signup {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  text-align: center;
+}
+
+.newsletter-signup h2 {
+  margin-bottom: 1rem;
+}
+
+.newsletter-signup form {
+  display: inline-block;
+  max-width: 400px;
+  width: 100%;
+}
+
+.newsletter-signup label,
+.newsletter-signup input {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.newsletter-signup input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.newsletter-signup button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.newsletter-signup button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* Hill Image Section */
+.hill-image {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: #e6f2ff;
+  margin-top: 40px;
+}
+
+.hill-image img {
+  flex: 1 1 300px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.hill-image aside {
+  flex: 1 1 300px;
+}
+
+.hill-image h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hill-image p {
+  margin-bottom: 1rem;
+}
+
+.hill-image button {
+  background-color: #dc3545;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hill-image button:hover {
+  background-color: #c82333;
+}
+
+/*Styling the Trips Page*/
+/* Call to Action Section */
+
+.cta {
+  background-color:rgb(244, 244, 246); 
+  padding: 2.5rem;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.cta a {
+  color: #4e3cd4; /* Soft Orange */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.cta p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Trip Descriptions Layout */
+.trip-descriptions {
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  
+  gap: 2rem;
+  justify-items: center;
+}
+
+.trip {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trip:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.trip img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.trip h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #2E4A7C; /* Dark Blue for headers */
+}
+
+.trip p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Trip Table Section */
+.trip-table {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.trip-table table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.trip-table th,
+.trip-table td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.trip-table th {
+  background-color: #2E4A7C;  /* Dark Blue for table headers */
+  color: white;
+}
+
+.trip-table td {
+  background-color: white;
+}
+
+.trip-table tr:nth-child(even) {
+  background-color: #F9F9F9;
+}
+
+.trip-table tr:hover {
+  background-color: #E1E1E1;
+}
